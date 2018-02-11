@@ -1,0 +1,9 @@
+﻿using Alexa.SmartHome.Models.ValueTypes;
+
+namespace Alexa.SmartHome.Models.Directives.Discover
+{
+    public class DiscoverScopePayload
+    {
+        public Scope Scope { get; set; }
+    }
+}
